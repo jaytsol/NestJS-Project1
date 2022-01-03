@@ -5,7 +5,7 @@ import { Document, SchemaOptions } from 'mongoose';
 const options: SchemaOptions = {
   timestamps: true,
 };
-
+//Mongoose에 연결할 Schema 정의
 @Schema(options)
 export class Cat extends Document {
   @Prop({
